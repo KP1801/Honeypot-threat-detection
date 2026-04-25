@@ -1,0 +1,6 @@
+logs/
+models/
+config/ssh_host_rsa.key
+__pycache__/
+*.pyc
+.env
