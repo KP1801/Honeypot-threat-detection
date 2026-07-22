@@ -1,4 +1,4 @@
-# 🍯 Intelligent Honeypot Analytics & Threat Detection System
+# Intelligent Honeypot Analytics & Threat Detection System
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
 ![Kali Linux](https://img.shields.io/badge/Kali-Linux-557C94?style=flat-square&logo=kalilinux)
@@ -10,29 +10,29 @@ A production-grade cybersecurity project that deploys fake SSH, HTTP, and FTP se
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
-### 🖥️ Dashboard Overview
+###  Dashboard Overview
 ![Dashboard Overview](screenshots/dashboard1.png)
 
-### 📊 Full Dashboard with All Charts
+###  Full Dashboard with All Charts
 > Attack Timeline · Risk Distribution · Attacker Types · Protocol Distribution
 
 ![Full Dashboard](screenshots/dashboard2.png)
 
-### 🎯 Top Threat Actors Table
+###  Top Threat Actors Table
 > ML-classified attacker IPs ranked by risk score (0–100) with behavior type, event count, and country
 
 ![Threat Actors](screenshots/threat_actors.png)
 
-### 📡 Live Event Feed
+###  Live Event Feed
 > Real-time stream of every attack — protocol, event type, and threat category detected
 
 ![Live Feed](screenshots/live_feed.png)
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ```
 Attacker (Internet)
@@ -66,7 +66,7 @@ Attacker (Internet)
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Multi-Protocol Honeypots** — Fake SSH, HTTP, and FTP servers that look real to attackers
 - **7 Threat Signature Categories** — SQL injection, command injection, path traversal, XSS, file inclusion, admin probing, scanner detection
@@ -78,7 +78,7 @@ Attacker (Internet)
 
 ---
 
-## 📊 Live Results
+##  Live Results
 
 From an actual run of this project:
 
@@ -106,7 +106,7 @@ From an actual run of this project:
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 honeypot-project/
@@ -135,7 +135,7 @@ honeypot-project/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone the Repository
 ```bash
@@ -171,7 +171,7 @@ python run_all.py
 
 ---
 
-## 🧪 Testing the Honeypots
+##  Testing the Honeypots
 
 ```bash
 # Test SSH honeypot
@@ -191,7 +191,7 @@ After testing, re-run analytics and refresh the dashboard — your own IP will a
 
 ---
 
-## 📊 ML Models Used
+##  ML Models Used
 
 | Model | Purpose |
 |---|---|
@@ -207,7 +207,7 @@ After testing, re-run analytics and refresh the dashboard — your own IP will a
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Slack Alerts
 ```bash
@@ -232,7 +232,7 @@ sudo python scripts/auto_block.py --unblock-all # Remove all blocks
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category | Tools |
 |---|---|
@@ -247,7 +247,7 @@ sudo python scripts/auto_block.py --unblock-all # Remove all blocks
 
 ---
 
-## ⚠️ Security Warning
+##  Security Warning
 
 - Run honeypots **only in a VM or isolated lab network** — never on a machine with sensitive data
 - Do **not** expose port 5000 (dashboard) to the internet
@@ -256,17 +256,17 @@ sudo python scripts/auto_block.py --unblock-all # Remove all blocks
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — free to use, modify, and distribute.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Your Name**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
+- GitHub: [@KP1801](https://github.com/KP1801)
+- Gmail : kirtipainkra.18@gmail.com
 
 ---
 
